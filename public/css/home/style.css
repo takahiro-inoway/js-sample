@@ -38,6 +38,7 @@ body {
   height: 100%;
   margin: 0;
   background: var(--c-base-bg);
+  font-family: monospace;
 }
 
 /*----*/
@@ -72,31 +73,71 @@ body ::-webkit-scrollbar-thumb {
   }
 }
 
---c-gray-border-lighter {
-  border: 1px solid #eff6fb99;
+
+/*----*/
+h1,h2,h3,h4,h5,h6{
+  text-align: center;
 }
 
 /*----*/
-
+section{
+  margin: 0 auto;
+}
 
 /*--tempcard--*/
+
 .tempcard_outline {
   margin: 10px auto;
-  border: 1px solid rgb(151, 151, 151);
+  border: 1px solid var(--c-gray-border);
   display: flex;
+  max-width: 1000px;
 }
 
 .tempcard {
-  padding: 18px;
+  padding: 16px 18px;
   margin: 20px 10px;
   font-size: 14px;
-  background: white;
+  background: var(--c-base-bg);
   border-radius: 12px;
+  width: 30vw;
+  max-width: 300px;
+}
+.tempcard_head{
+  padding-bottom: 12px;
+}
+.tempcard textarea{
+  border: none;
+  border-radius: 10px;
+  padding: 16px 18px;
+  background: var(--c-blue-bg);
+  width: 84%;
+}
+.tempcard_foot{
+  padding-top: 12px;
+}
+
+#tempcard_btn_outline{
+  margin: 0 auto;
+  width: 500px;
+  border: 1px solid var(--c-gray-border);
+
+}
+.btn_block{
+  border: 1px solid var(--c-gray-border);
+
 }
 
 
 
-/**/
+
+
+
+
+
+
+/*---
+
+---*/
 .AppHeader_header__0obie {
   background: var(--c-base-bg);
   color: var(--c-body)
