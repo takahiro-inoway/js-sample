@@ -1,0 +1,195 @@
+/*------------*/
+/**/
+/**/
+:root {
+  --c-primary: #3ea8ff;
+  --c-primary-darker: #0f83fd;
+  --c-body: #000000d1;
+  --c-body-content: #3e3f48;
+  --c-gray: #93a5b1;
+  --c-gray-lighter: #acbcc7;
+  --c-gray-darker: #6e7b85;
+  --c-gray-border: #d6e3ed;
+  --c-gray-border-lighter: #5c93bb2b;
+  --c-base-bg: #fff;
+  --c-primary-bg: #edf2f7;
+  --c-primary-bg-darker: #c6d5e2;
+  --c-primary-bg-lighter: #f1f5f9;
+  --c-primary-bg-lightest: #eff6fb99;
+  --c-blue-bg: #e0efff;
+  --c-blue-bg-lighter: #e6f2ff;
+  --c-contrast: #1b1b1d;
+  --c-error: #ff6868;
+  --c-error-bg: #fff0f0;
+  --c-like: #f76685;
+  --c-like-bg: #ffeaf4;
+  --c-idea: #807aff;
+  --c-idea-bg: #e8ebff;
+  --c-closed-bg: #545c77;
+  --c-focus-shadow: #bfdcff;
+  --font-base: -apple-system, "BlinkMacSystemFont", "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif, "Segoe UI Emoji";
+  --font-code: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace, "Segoe UI Emoji";
+  --font-latin-hero: "Inter", "BlinkMacSystemFont", Arial, sans-serif;
+  --header-height: 62px
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background: var(--c-base-bg);
+}
+
+/*----*/
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+body ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+body ::-webkit-scrollbar-track {
+  background: #f1f2f3;
+}
+
+body ::-webkit-scrollbar-thumb {
+  background: #c1cddf;
+  border-radius: 4px;
+}
+
+@keyframes open_margin {
+  0% {
+    margin: -20px;
+    z-index: 9999;
+  }
+
+  100% {
+    margin: 0 2px;
+  }
+}
+
+--c-gray-border-lighter {
+  border: 1px solid #eff6fb99;
+}
+
+/*----*/
+
+
+/*--tempcard--*/
+.tempcard_outline {
+  margin: 10px auto;
+  border: 1px solid rgb(151, 151, 151);
+  display: flex;
+}
+
+.tempcard {
+  padding: 18px;
+  margin: 20px 10px;
+  font-size: 14px;
+  background: white;
+  border-radius: 12px;
+}
+
+
+
+/**/
+.AppHeader_header__0obie {
+  background: var(--c-base-bg);
+  color: var(--c-body)
+}
+
+/**/
+.Container_wide__i6D5f {
+  max-width: 1200px
+}
+
+.Container_common__bSTKj {
+  margin: 0 auto;
+  padding: 0 40px
+}
+
+@media screen and (max-width:992px) {
+  .Container_common__bSTKj {
+    max-width: 100%
+  }
+}
+
+@media screen and (max-width:768px) {
+  .Container_common__bSTKj {
+    padding: 0 25px
+  }
+}
+
+@media screen and (max-width:576px) {
+  .Container_common__bSTKj {
+    padding: 0 20px
+  }
+}
+
+@media screen and (max-width:400px) {
+  .Container_common__bSTKj {
+    padding: 0 14px
+  }
+}
+
+/**/
+.AppHeader_inner__Nqogt {
+  display: flex;
+  align-items: center;
+  height: var(--header-height);
+  justify-content: space-between;
+}
+
+
+/**/
+.AppHeader_homeLink__sgij0 {
+  height: var(--header-height);
+  padding: 3px 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/**/
+@keyframes FadeIn_fadeIn__O8JSZ {
+  0% {
+    opacity: 0
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+.FadeIn_fadeIn__O8JSZ {
+  animation: FadeIn_fadeIn__O8JSZ .3s ease-in
+}
+
+/**/
+.AppHeader_actionsArea__XPo58 {
+  display: flex;
+  align-items: center
+}
+
+/**/
+.AppHeader_searchLink__z70oa {
+  display: flex;
+  align-items: center;
+  color: var(--c-gray-darker);
+}
+.AppHeader_searchLink__z70oa:hover {
+  color: var(--c-body)
+}
+
+/**/
+/**/
+/**/
+/**/
+.View_container__Tv3f8 {
+  background: var(--c-primary-bg);
+  padding-bottom: 4rem;
+}

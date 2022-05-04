@@ -12,7 +12,7 @@ class RoomController extends Controller
   public function index()
   {
     $users = User::all();
-    return view('room/index', compact('users'));
+    return view('home/index', compact('users'));
 
   }
 }
