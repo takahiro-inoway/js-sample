@@ -75,12 +75,17 @@ body ::-webkit-scrollbar-thumb {
 
 
 /*----*/
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   text-align: center;
 }
 
 /*----*/
-section{
+section {
   margin: 0 auto;
 }
 
@@ -102,27 +107,31 @@ section{
   width: 30vw;
   max-width: 300px;
 }
-.tempcard_head{
+
+.tempcard_head {
   padding-bottom: 12px;
 }
-.tempcard textarea{
+
+.tempcard textarea {
   border: none;
   border-radius: 10px;
   padding: 16px 18px;
   background: var(--c-blue-bg);
   width: 84%;
 }
-.tempcard_foot{
+
+.tempcard_foot {
   padding-top: 12px;
 }
 
-#tempcard_btn_outline{
+#tempcard_btn_outline {
   margin: 0 auto;
   width: 500px;
   border: 1px solid var(--c-gray-border);
 
 }
-.btn_block{
+
+.btn_block {
   border: 1px solid var(--c-gray-border);
 
 }
@@ -222,6 +231,7 @@ section{
   align-items: center;
   color: var(--c-gray-darker);
 }
+
 .AppHeader_searchLink__z70oa:hover {
   color: var(--c-body)
 }
