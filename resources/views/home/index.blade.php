@@ -80,11 +80,14 @@
     @endforeach
 
     @include('home/tempcard')
+    @include('home/search')
+    @include('home/master')
 
   </article>
 
   <script>
   </script>
+  <script src="{{ asset('js/home/script.js') }}" defer></script>
 </body>
 
 </html>
