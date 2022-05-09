@@ -17,7 +17,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/home', 'App\Http\Controllers\RoomController@index');
+Route::get('/home', 'App\Http\Controllers\HomeController@index');
+Route::get('/work', 'App\Http\Controllers\HomeController@work');
+Route::get('/about', 'App\Http\Controllers\HomeController@about');
 
 Route::middleware([
     'auth:sanctum',

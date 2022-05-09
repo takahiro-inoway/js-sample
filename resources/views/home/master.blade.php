@@ -18,6 +18,5 @@
           @endfor
       </tbody>
     </table>
-
   </div>
 </section>

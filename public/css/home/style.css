@@ -138,9 +138,9 @@ section {
 .tempcard textarea {
   border: none;
   border-radius: var(--base-border-radius);
-  padding: 16px 18px;
+  padding: 8px 10px;
   background: var(--c-blue-bg);
-  width: 84%;
+  width: 92%;
 }
 
 .tempcard_foot {
@@ -231,13 +231,12 @@ section {
 
 
 /*--master--*/
-#master_tables_outline{
+#master_tables_outline {
   display: flex;
   justify-content: center;
 }
-.master_table {
 
-}
+.master_table {}
 
 /*---
 
@@ -335,7 +334,118 @@ section {
 /**/
 /**/
 /**/
-.View_container__Tv3f8 {
+.View_container__a1 {
   background: var(--c-primary-bg);
+  padding-top: 0.5rem;
   padding-bottom: 4rem;
 }
+
+/*--footer--*/
+.Container_common__bSTKj {
+  margin: 0 auto;
+  padding: 0 40px
+}
+
+@media screen and (max-width: 992px) {
+  .Container_common__bSTKj {
+    max-width: 100%
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Container_common__bSTKj {
+    padding: 0 25px
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .Container_common__bSTKj {
+    padding: 0 20px
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Container_common__bSTKj {
+    padding: 0 14px
+  }
+}
+
+
+.AppFooter_footer___WHPZ {
+  padding: 3rem 0 0;
+  background: var(--c-base-bg)
+}
+
+.Container_wide__i6D5f {
+  max-width: 1200px
+}
+
+
+.AppFooter_grid__wyHZb {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 3%
+}
+
+@media screen and (max-width: 768px) {
+  .AppFooter_grid__wyHZb {
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px
+  }
+
+  .AppFooter_columnLogo__A2HNE {
+    grid-column: span 3;
+    margin-bottom: 1.5rem
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .AppFooter_grid__wyHZb {
+    display: block
+  }
+
+  .AppFooter_columnTitle__mwXYN {
+    margin: 2rem 0 .7rem;
+    padding-bottom: .4rem;
+    border-bottom: 1px solid var(--c-gray-border-lighter)
+  }
+}
+
+.AppFooter_column__3glqt {
+  font-size: .88rem
+}
+
+.AppFooter_column__3glqt li {
+  margin: .6rem 0
+}
+
+.AppFooter_column__3glqt li a:hover {
+  text-decoration: underline
+}
+
+.AppFooter_columnTitle__mwXYN {
+  margin-bottom: .5rem;
+  font-size: 1.15em
+}
+
+
+/*--about--*/
+.flex_container_outline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_content {
+  width: 30vw;
+  max-width: 200px;
+  padding: 5vw;
+}
+
+.container_content h2 {
+  text-align: left;
+}
+
+#container_text {}
+
+#container_image {}
