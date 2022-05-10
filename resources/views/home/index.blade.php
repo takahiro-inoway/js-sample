@@ -7,6 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="{{ asset('css/home/style.css') }}">
   <title>work</title>
+  <!--Vue.js CDN-->
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
+
 </head>
 
 <body>
