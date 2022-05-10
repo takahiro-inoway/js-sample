@@ -108,7 +108,7 @@ select {
   -moz-appearance: none;
   appearance: none;
 }
-img{
+img, video{
   width: 90%;
   max-width: 400px;
   filter: var(--base-shadow);

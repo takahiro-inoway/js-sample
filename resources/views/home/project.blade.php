@@ -9,8 +9,7 @@
       <div><span v-on:mouseover="mouseover_action" data-project=3>社内ポータル</span></div>
     </div>
     <div class="container_img">
-
-      <img v-show="content === 3" src="{{ asset('img/work/work_projects_img01_linkpage.png') }}" alt="">
+      <video v-show="content === 3" autoplay loop muted playsinline src="{{ asset('movie/work/work_projects_movie01_linkpage.mp4') }}"></video>
     </div>
     <div class="container_content">
       <div v-show="content === 0">
