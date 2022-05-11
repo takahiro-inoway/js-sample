@@ -7,6 +7,7 @@
 
       <a class="AppHeader_homeLink__sgij0" href="{{ url('/work') }}">work</a>
       <a class="AppHeader_homeLink__sgij0" href="{{ url('/about') }}">about</a>
+      <a class="AppHeader_homeLink__sgij0" href="{{ url('/prototype') }}">prototype</a>
 
       @if (Route::has('login'))
       <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">

@@ -26,4 +26,10 @@ class HomeController extends Controller
         $users = User::all();
         return view('home/about', compact('users'));
     }
+
+    public function prototype()
+    {
+        $users = User::all();
+        return view('home/prototype', compact('users'));
+    }
 }

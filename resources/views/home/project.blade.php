@@ -8,7 +8,7 @@
       <div><span v-on:mouseover="mouseover_action" data-project=2>応対支援システム</span></div>
       <div><span v-on:mouseover="mouseover_action" data-project=3>社内ポータル</span></div>
     </div>
-    <div class="container_img">
+    <div class="container_media">
       <video v-show="content === 3" autoplay loop muted playsinline src="{{ asset('movie/work/work_projects_movie01_linkpage.mp4') }}"></video>
     </div>
     <div class="container_content">

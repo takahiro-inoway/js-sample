@@ -20,6 +20,7 @@ Route::get('/', function () {
 Route::get('/home', 'App\Http\Controllers\HomeController@index');
 Route::get('/work', 'App\Http\Controllers\HomeController@work');
 Route::get('/about', 'App\Http\Controllers\HomeController@about');
+Route::get('/prototype', 'App\Http\Controllers\HomeController@prototype');
 
 Route::middleware([
     'auth:sanctum',

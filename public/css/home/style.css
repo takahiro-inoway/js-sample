@@ -464,19 +464,24 @@ section {
   animation: var(--normal-anime-opacity)
 }
 
-.container_img {
+.container_media {
   display: flex;
-  min-height: 40vw;
+  min-height: 50vw;
   width: 30vw;
   max-width: 400px;
   align-items: center;
   justify-content: center;
 }
 
+.container_media video{
+  border-radius: var(--base-border-radius);
+}
+
 .hashtag_font{
   color: var(--c-primary);
 }
 
-#container_text {}
+#project_titles span:hover{
+  color: var(--c-primary)
+}
 
-#container_image {}

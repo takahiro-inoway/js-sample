@@ -1,9 +1,9 @@
 <section>
   <h2>定型分を作成する</h2>
-  <div class="tempcard_outline">
+  <div id="tempcards" class="tempcard_outline">
     @for($i = 0; $i < 3; $i++) <div class="tempcard">
       <div class="tempcard_head">head</div>
-      <textarea placeholder="textarea"></textarea>
+      <textarea v-on:click="select_copy" placeholder="textarea"></textarea>
       <div class="tempcard_foot">foot</div>
   </div>
   @endfor
